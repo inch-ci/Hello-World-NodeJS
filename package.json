@@ -1,0 +1,25 @@
+{
+  "name": "Hello-World-NodeJS",
+  "version": "1.0.0",
+  "description": "Test repo for Inch's Node capabilities",
+  "main": "src/inch_test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "copy-fixture": "cat docs.json | python -m json.tool > ../inch/test/fixtures/nodejs/inch_test/all.json"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "inchjs": "^0.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/inch-ci/Hello-World-NodeJS.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/inch-ci/Hello-World-NodeJS/issues"
+  },
+  "homepage": "https://github.com/inch-ci/Hello-World-NodeJS"
+}
