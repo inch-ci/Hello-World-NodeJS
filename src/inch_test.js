@@ -7,18 +7,24 @@ InstanciatableClass.prototype.render = function() {
 };
 
 var InchTest = {};
+
 /**
 * @private
 */
-InchTest.generate_docs = function(project, version, args, options) {
+InchTest.generate_docs = function(project, version, args, options) {}
 
-}
 InchTest.Docs = {
   'Formatter': {
     // Generate JSON documentation for the given modules
     'run': function(modules, args, config) {
       return null;
-    }
+    },
+    /*
+     * @ignore
+     */
+    'nodoc_ignore': function() {},
+    /* istanbul ignore next */
+    'nodoc_istanbul': function() {}
   }
 };
 
